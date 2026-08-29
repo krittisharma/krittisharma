@@ -1,0 +1,35 @@
+title: Kritti Sharma
+tagline: Astrophysicist — Fast Radio Bursts, Baryons, Cosmology
+description: >-
+  Kritti Sharma is a PhD candidate in Astrophysics at Caltech studying
+  fast radio bursts, baryonic feedback, and cosmology.
+url: "https://krittisharma.github.io"   # TODO: update if you use a custom domain
+baseurl: ""                              # keep "" if this repo is named <username>.github.io
+                                          # otherwise set to "/your-repo-name"
+
+author: Kritti Sharma
+email: kritti@caltech.edu
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# jekyll-sitemap is the only plugin in use — with plain `jekyll` (not the
+# github-pages meta-gem) this and any future plugin just needs to be in your
+# Gemfile too.
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - vendor

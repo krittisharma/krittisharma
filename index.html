@@ -1,0 +1,65 @@
+---
+layout: default
+title: Home
+description: Kritti Sharma is a PhD candidate in Astrophysics at Caltech, using fast radio bursts and radio polarization to study baryons, galaxy formation, and cosmology.
+permalink: /
+---
+
+<section class="hero wrap">
+  <img
+    class="hero-photo reveal"
+    src="{{ '/assets/images/kritti-photo.jpg' | relative_url }}"
+    onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'hero-photo', style:'display:flex;align-items:center;justify-content:center;background:var(--bg-card);color:var(--text-faint);font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.06em;text-align:center;padding:0.5rem;', innerText:'ADD PHOTO\n/assets/images/kritti-photo.jpg'}))"
+    alt="Portrait of Kritti Sharma">
+
+  <div class="eyebrow reveal" style="justify-content:center;">PhD Candidate in Astrophysics · Caltech</div>
+  <h1 class="reveal">Kritti Sharma</h1>
+  <p class="lede reveal">
+    I study how fast radio bursts and radio polarization can reveal the
+    hidden baryons of the Universe — connecting the physics of gas around
+    galaxies to the growth of cosmic structure and the parameters of our
+    cosmological model.
+  </p>
+
+  <div class="hero-cta reveal">
+    <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Read my research →</a>
+    <a class="btn" href="{{ '/cv/' | relative_url }}">View CV</a>
+  </div>
+
+  {% include sweep-hero.html %}
+</section>
+
+<section class="section-tight wrap">
+  <div class="card-grid reveal">
+    <a class="nav-card" href="{{ '/research/' | relative_url }}">
+      <span class="num">01</span>
+      <h3>Research</h3>
+      <p>Baryons, feedback, and the FRBs that trace them — the case for a new cosmological probe.</p>
+    </a>
+    <a class="nav-card" href="{{ '/publications/' | relative_url }}">
+      <span class="num">02</span>
+      <h3>Publications</h3>
+      <p>31 refereed papers, including first-author work in Nature and Nature Astronomy.</p>
+    </a>
+    <a class="nav-card" href="{{ '/press/' | relative_url }}">
+      <span class="num">03</span>
+      <h3>Press</h3>
+      <p>Coverage of the missing-baryon problem, magnetar origins, and near-Earth asteroids.</p>
+    </a>
+    <a class="nav-card" href="{{ '/outreach/' | relative_url }}">
+      <span class="num">04</span>
+      <h3>Outreach</h3>
+      <p>Teaching, mentoring, and public astronomy from IIT Bombay to Caltech.</p>
+    </a>
+    <a class="nav-card" href="{{ '/cv/' | relative_url }}">
+      <span class="num">05</span>
+      <h3>CV</h3>
+      <p>Full academic record — education, observing, talks, and service.</p>
+    </a>
+    <a class="nav-card" href="{{ '/contact/' | relative_url }}">
+      <span class="num">06</span>
+      <h3>Contact</h3>
+      <p>Email, institution, and professional profiles.</p>
+    </a>
+  </div>
+</section>

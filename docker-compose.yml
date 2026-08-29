@@ -1,0 +1,26 @@
+# Local preview with zero changes to your Mac's Ruby/Xcode setup.
+#
+# Usage:
+#   docker compose up
+#   → open http://localhost:4000
+#   Ctrl+C to stop, or `docker compose down` from another terminal.
+#
+# Edits to any file are picked up automatically (force_polling is set
+# because Docker Desktop's file-change notifications don't always reach
+# the container reliably on macOS).
+
+services:
+  jekyll:
+    image: jekyll/jekyll:4
+    command: >
+      bash -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --force_polling"
+    volumes:
+      - .:/srv/jekyll
+      # Named volume for gems so they persist across restarts instead of
+      # reinstalling every time you run `docker compose up`.
+      - jekyll-bundle:/usr/local/bundle
+    ports:
+      - "4000:4000"
+
+volumes:
+  jekyll-bundle:

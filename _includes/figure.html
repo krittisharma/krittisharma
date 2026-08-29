@@ -1,0 +1,40 @@
+{%- comment -%}
+Auto-detecting figure include. Pass `base` — the file path under
+/assets/images/ WITHOUT an extension (e.g. "figures/project1-fig9") — and
+this checks site.static_files for a match against a list of common image
+and video extensions. Whichever one exists renders automatically (image
+as <img>, video as <video>); if none exist, it falls back to the labeled
+placeholder box. Nothing else needs to change when a file is added later.
+{%- endcomment -%}
+{%- assign exts = "png,jpg,jpeg,webp,gif,svg,mp4,webm,mov" | split: "," -%}
+{%- assign found_ext = "" -%}
+{%- for ext in exts -%}
+  {%- assign candidate = "/assets/images/" | append: include.base | append: "." | append: ext -%}
+  {%- for f in site.static_files -%}
+    {%- if f.path == candidate -%}
+      {%- assign found_ext = ext -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+<div class="figure-block reveal">
+  {% if found_ext != "" %}
+    {% assign fpath = "/assets/images/" | append: include.base | append: "." | append: found_ext %}
+    {% if found_ext == "mp4" or found_ext == "webm" or found_ext == "mov" %}
+      <video src="{{ fpath | relative_url }}" controls playsinline muted style="width:100%;border-radius:var(--radius-sm);display:block;background:#000;"></video>
+    {% else %}
+      <img src="{{ fpath | relative_url }}" alt="{{ include.alt | default: include.caption | strip_html }}" loading="lazy">
+    {% endif %}
+  {% else %}
+    <div class="placeholder" style="{% if include.ratio %}aspect-ratio:{{ include.ratio }};{% endif %}">
+      <div>
+        <span class="tag">{{ include.tag | default: "Add image" }}</span>
+        {{ include.placeholder_desc }}<br>
+        <span style="color:var(--text-faint);">→ drop a file at <code>/assets/images/{{ include.base }}.png</code> (or .jpg/.webp/.mp4/etc.)</span>
+      </div>
+    </div>
+  {% endif %}
+  {% if include.caption %}
+    <div class="figure-caption">{{ include.caption }}</div>
+  {% endif %}
+</div>

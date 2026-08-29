@@ -1,0 +1,31 @@
+---
+layout: default
+title: Press
+description: Press coverage of Kritti Sharma's research on fast radio bursts, missing baryons, and near-Earth asteroids.
+permalink: /press/
+---
+
+<section class="section wrap">
+  <div class="eyebrow">Press</div>
+  <h1>Press &amp; science journalism</h1>
+  <p class="lede narrative-block">
+    Coverage of the missing-baryon problem, the origins of magnetars, and
+    (earlier in my career) near-Earth asteroid discoveries. An asterisk in
+    the CV marks pieces where I was directly interviewed.
+  </p>
+
+  {% for item in site.data.press %}
+    <article class="press-item reveal">
+      <div class="press-outlet">{{ item.outlet }}{% if item.interviewed %} · interviewed{% endif %}</div>
+      <div class="press-date">{{ item.date }}</div>
+      <h3 class="press-title">
+        {% if item.url and item.url != "" %}
+          <a href="{{ item.url }}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--line-strong);">{{ item.title }} ↗</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </h3>
+      <p class="press-summary">{{ item.summary }}</p>
+    </article>
+  {% endfor %}
+</section>

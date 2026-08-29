@@ -1,0 +1,226 @@
+# Transcribed directly from Kritti's CV (as of Aug 2026).
+# role: first | coauthor | supporting
+# To add a new paper, copy an entry and fill in the fields — no other
+# page needs to change, publications.html renders this list automatically.
+
+- role: first
+  year: 2026
+  title: "Baryons in the Darkest Sites of the Universe"
+  authors: "K. Sharma, V. Ravi, D. Anbajagane, et al."
+  venue: "ApJL, 1006, L3"
+  arxiv: "2605.01994"
+
+- role: first
+  year: 2026
+  title: "Backlighting the Cosmic Web with Fast Radio Bursts: An Anthology of Dispersion Measure Cross-Correlations with Large-Scale Structure and Baryon Tracers"
+  authors: "K. Sharma, E. Krause, V. Ravi, et al."
+  venue: "Accepted, ApJ"
+  arxiv: "2604.22105"
+
+- role: first
+  year: 2026
+  title: "Signatures of Suppressed Matter Clustering revealed by Fast Radio Bursts"
+  authors: "K. Sharma, E. Krause, V. Ravi, et al."
+  venue: "Accepted, Nature Astronomy"
+  arxiv: "2604.17162"
+
+- role: first
+  year: 2026
+  title: "Quantifying the Impact of Selection Effects on FRB DM−z Relation Cosmological Inference"
+  authors: "K. Sharma, V. Ravi, E. Krause, et al."
+  venue: "ApJ, 999, 202"
+  arxiv: "2511.16850"
+
+- role: first
+  year: 2026
+  title: "Probing Baryonic Feedback and Cosmology with the 3×2-point Statistic of FRBs and Galaxies"
+  authors: "K. Sharma, E. Krause, V. Ravi, et al."
+  venue: "ApJ, 998, 109"
+  arxiv: "2509.05866"
+
+- role: first
+  year: 2025
+  title: "A Hydrodynamical Simulations-based Model that Connects the FRB DM−Redshift Relation to Suppression of the Matter Power Spectrum via Feedback"
+  authors: "K. Sharma, E. Krause, V. Ravi, et al."
+  venue: "ApJ, 989, 81"
+  arxiv: "2504.18745"
+
+- role: first
+  year: 2025
+  title: "Fast Luminous Extragalactic Transients in the VLA Sky Survey: Implications for the Rates of Accretion-induced Collapse Events, Fast Blue Optical Transients and Gamma Ray Burst Afterglows"
+  authors: "K. Sharma, V. Ravi, D. Dong, et al."
+  venue: "PASP, 137, 084102"
+  arxiv: "2506.04522"
+
+- role: first
+  year: 2024
+  title: "Preferential Occurrence of Fast Radio Bursts in Massive Star-forming Galaxies"
+  authors: "K. Sharma, V. Ravi, L. Connor, et al."
+  venue: "Nature, 635, 61–66"
+  arxiv: "2409.16964"
+  journal_url: "https://www.nature.com/articles/s41586-024-08074-9"
+
+- role: first
+  year: 2023
+  title: "Searching for Massive Black Hole Binaries with a Transfer Learning Algorithm"
+  authors: "K. Sharma, K. Chandra, and A. Pai"
+  venue: "Phys. Rev. D 108, 124061"
+  arxiv: "2208.02545"
+
+- role: first
+  year: 2023
+  title: "Astreaks: Astrometry of NEOs with Trailed Background Stars"
+  authors: "K. Sharma, H. Kumar, H. Choudhary, et al."
+  venue: "MNRAS, 524, 2, 2651–2660"
+  arxiv: "2306.16519"
+
+- role: first
+  year: 2023
+  title: "A Massive Elliptical Host Among Two Galaxy-cluster Fast Radio Bursts"
+  authors: "K. Sharma, J. Somalwar, C. Law, et al."
+  venue: "ApJ, 950, 175"
+  arxiv: "2302.14782"
+
+# ---- second / third author ----
+
+- role: coauthor
+  year: 2026
+  title: "Great Walls of Cosmic Baryons in the Northern Sky"
+  authors: "V. Ravi, K. Sharma, and L. Connor"
+  venue: "Accepted, ApJL"
+  arxiv: "2604.05093"
+
+- role: coauthor
+  year: 2025
+  title: "A gas-rich cosmic web revealed by the partitioning of the missing baryons"
+  authors: "L. Connor, V. Ravi, K. Sharma, et al."
+  venue: "Nature Astronomy, 9, 1226–1239"
+  arxiv: "2409.16952"
+
+- role: coauthor
+  year: 2024
+  title: "Deep Synoptic Array Science: First FRB and Host Galaxy Catalog"
+  authors: "C. Law and K. Sharma, et al."
+  venue: "ApJ, 967, 29"
+  arxiv: "2307.03344"
+
+# ---- supporting contributions ----
+
+- role: supporting
+  year: 2026
+  title: "Searching for Long Duration Radio Transients with the DSA-110"
+  authors: "M. Sherman, N. Kosogorov, et al. (incl. K. Sharma)"
+  venue: "PASP, 138, 024501"
+  arxiv: "2510.18136"
+
+- role: supporting
+  year: 2025
+  title: "A Luminous and Hot Infrared through X-Ray Transient at a 5 kpc Offset from a Dwarf Galaxy"
+  authors: "J. Somalwar, V. Ravi, et al. (incl. K. Sharma)"
+  venue: "ApJ, 995, 228"
+  arxiv: "2505.11597"
+
+- role: supporting
+  year: 2025
+  title: "Optical/Infrared Observations of the Extraordinary GRB 250702B: A Highly Obscured Afterglow in a Massive Galaxy Consistent with Multiple Possible Progenitors"
+  authors: "J. Carney, I. Andreoni, et al. (incl. K. Sharma)"
+  venue: "ApJL, 994, L46"
+  arxiv: "2509.22784"
+
+- role: supporting
+  year: 2025
+  title: "A Correlation between Fast Radio Burst Dispersion Measure and Foreground Large-scale Structure"
+  authors: "M. Hussaini, L. Connor, et al. (incl. K. Sharma)"
+  venue: "ApJL, 993, L27"
+  arxiv: "2506.04186"
+
+- role: supporting
+  year: 2025
+  title: "Evidence for a Hot Galactic Halo around the Andromeda Galaxy Using FRBs along Two Sightlines"
+  authors: "R. Anna-Thomas, C. Law, et al. (incl. K. Sharma)"
+  venue: "ApJ, 993, 221"
+  arxiv: "2503.02947"
+
+- role: supporting
+  year: 2025
+  title: "A 50 Mpc Fast Radio Burst Constrains the Mass of the Milky Way Circumgalactic Medium"
+  authors: "V. Ravi, M. Catha, et al. (incl. K. Sharma)"
+  venue: "AJ, 169, 330"
+  arxiv: "2301.01000"
+
+- role: supporting
+  year: 2025
+  title: "The Palomar twilight survey of 'Ayló'chaxnim, Atiras, and comets"
+  authors: "B. Bolin, F. Masci, et al. (incl. K. Sharma)"
+  venue: "Icarus, 425, 116333"
+  arxiv: "2409.15263"
+
+- role: supporting
+  year: 2024
+  title: "Searching for magnetar binaries disrupted by core-collapse supernovae"
+  authors: "M. Sherman, V. Ravi, et al. (incl. K. Sharma)"
+  venue: "MNRAS, 534, 2, 1414–1419"
+  arxiv: "2404.05135"
+
+- role: supporting
+  year: 2024
+  title: "A Heavily Scattered Fast Radio Burst Is Viewed Through Multiple Galaxy Halos"
+  authors: "J. Faber, V. Ravi, et al. (incl. K. Sharma)"
+  venue: "Under review, ApJ"
+  arxiv: "2405.14182"
+
+- role: supporting
+  year: 2024
+  title: "Polarimetry of 25 New Fast Radio Bursts Provides Insights into Their Origins"
+  authors: "M. Sherman, L. Connor, et al. (incl. K. Sharma)"
+  venue: "ApJ, 964, 131"
+  arxiv: "2308.06813"
+
+- role: supporting
+  year: 2024
+  title: "Characterizing the Ordinary Broad-line Type Ic SN 2023pel from the Energetic GRB 230812B"
+  authors: "G. Srinivasaragavan, V. Swain, et al. (incl. K. Sharma)"
+  venue: "ApJL, 960, L18"
+  arxiv: "2310.14397"
+
+- role: supporting
+  year: 2023
+  title: "Implications of Faraday Rotation Measures of Fast Radio Bursts Localized to Host Galaxies"
+  authors: "M. Sherman, L. Connor, et al. (incl. K. Sharma)"
+  venue: "ApJL, 957, L8"
+  arxiv: "2308.06816"
+
+- role: supporting
+  year: 2023
+  title: "Two Fast Radio Burst Sources in Massive Galaxy Clusters"
+  authors: "L. Connor, V. Ravi, et al. (incl. K. Sharma)"
+  venue: "ApJL, 949, L26"
+  arxiv: "2302.14788"
+
+- role: supporting
+  year: 2023
+  title: "Discovery of the Host Galaxy of FRB 20220912A"
+  authors: "V. Ravi, M. Catha, et al. (incl. K. Sharma)"
+  venue: "ApJL, 949, L3"
+  arxiv: "2211.09049"
+
+- role: supporting
+  year: 2022
+  title: "India's First Robotic Eye for Time-domain Astrophysics: The GROWTH-India Telescope"
+  authors: "H. Kumar, V. Bhalerao, et al. (incl. K. Sharma)"
+  venue: "AJ, 164, 90"
+  arxiv: "2206.13535"
+
+- role: supporting
+  year: 2021
+  title: "Fast-transient Searches in Real Time with ZTFReST: Identification of Three Optically Discovered Gamma-Ray Burst Afterglows and New Constraints on the Kilonova Rate"
+  authors: "I. Andreoni, M. Coughlin, et al. (incl. K. Sharma)"
+  venue: "ApJ, 918, 63"
+  arxiv: "2104.06352"
+
+- role: supporting
+  year: 2021
+  title: "Time-series and Phase-curve Photometry of Active Asteroid Gault in a Quiescent State"
+  authors: "J. Purdum, Z. Lin, et al. (incl. K. Sharma)"
+  venue: "ApJL, 911, L35"
+  arxiv: "2102.13017"

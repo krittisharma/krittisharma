@@ -1,0 +1,44 @@
+---
+layout: default
+title: Outreach
+description: Teaching, mentoring, and public astronomy outreach — from IIT Bombay to Caltech.
+permalink: /outreach/
+---
+
+<section class="section wrap">
+  <div class="eyebrow">Outreach</div>
+  <h1>Teaching &amp; outreach</h1>
+  <p class="lede narrative-block">
+    From managing a 5,500-strong amateur astronomy community at IIT
+    Bombay to leading hands-on FRB workshops for early-career
+    researchers, I care about making this science legible outside the
+    room it was done in.
+  </p>
+
+  <div class="outreach-grid" style="margin-top:2.5rem;">
+    {% for item in site.data.outreach %}
+      <div class="outreach-card reveal">
+        <div class="eyebrow">{{ item.year }}</div>
+        <h3>{{ item.title }}</h3>
+        <p class="text-dim small mt-0">{{ item.org }}</p>
+        <p>{{ item.what }}</p>
+        <p class="text-dim">{{ item.role }}</p>
+        <div class="outreach-meta">AUDIENCE — {{ item.audience }}</div>
+        {% if item.media_note %}
+          <div class="outreach-media-note">{{ item.media_note }}</div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="callout" style="margin-top:2.5rem;">
+    <span class="tag">Expanding this page</span>
+    <p style="margin:0.5em 0 0;">
+      This page is set up to grow — send over photos, links, or video from
+      your previous personal website and each can be dropped into its
+      matching entry in <code>_data/outreach.yml</code> as a
+      <code>media_note</code>, image, or link field, without touching the
+      page's layout.
+    </p>
+  </div>
+</section>
