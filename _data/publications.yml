@@ -95,6 +95,13 @@
 
 - role: coauthor
   year: 2026
+  title: "A new measurement of the FRB DM-galaxy cross correlation and a first joint analysis with the kinematic SZ effect"
+  authors: "S. McCarty, L. Connor, K. Sharma, et al."
+  venue: "Under review, PRD"
+  arxiv: "2608.11296"
+
+- role: coauthor
+  year: 2026
   title: "Great Walls of Cosmic Baryons in the Northern Sky"
   authors: "V. Ravi, K. Sharma, and L. Connor"
   venue: "Accepted, ApJL"
