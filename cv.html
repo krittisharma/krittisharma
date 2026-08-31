@@ -5,17 +5,21 @@ description: Kritti Sharma's curriculum vitae.
 permalink: /cv/
 ---
 
+{% assign cv_ts = site.time | date: '%s' %}
+{% assign cv_url = '/assets/cv/kritti-sharma-cv.pdf' | relative_url %}
+{% assign cv_url_fresh = cv_url | append: '?v=' | append: cv_ts %}
+
 <section class="section wrap">
   <div class="eyebrow">CV</div>
   <h1>Curriculum vitae</h1>
 
   <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;margin-bottom:1.5rem;">
-    <a class="btn btn-primary" href="{{ '/assets/cv/kritti-sharma-cv.pdf' | relative_url }}" download>Download PDF ↓</a>
-    <a class="btn" href="{{ '/assets/cv/kritti-sharma-cv.pdf' | relative_url }}" target="_blank" rel="noopener">Open in new tab ↗</a>
+    <a class="btn btn-primary" href="{{ cv_url_fresh }}" download>Download PDF ↓</a>
+    <a class="btn" href="{{ cv_url_fresh }}" target="_blank" rel="noopener">Open in new tab ↗</a>
   </div>
 
   <div class="cv-embed">
-    <object data="{{ '/assets/cv/kritti-sharma-cv.pdf' | relative_url }}" type="application/pdf">
+    <object data="{{ cv_url_fresh }}" type="application/pdf">
       <div class="cv-fallback">
         <p><span class="mono" style="color:var(--amber);">ADD FILE</span> — drop your CV PDF at
         <code>/assets/cv/kritti-sharma-cv.pdf</code> to enable the in-browser viewer.</p>
