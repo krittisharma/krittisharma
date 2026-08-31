@@ -2,29 +2,36 @@
 # Structured so photos/links/video can be dropped in per-item later —
 # see media_note on any entry once you have material to add.
 
-- title: "Caltech Astronomy Outreach Volunteer"
-  org: "Caltech"
+- title: Panelist, Star-Gazing Lecture
+  org: "Caltech Astronomy"
   year: "2025"
-  what: "Q&A panelist for a public star-gazing lecture."
   audience: "General public"
+  image_base: "outreach/star-gazing-lecture"
+  links:
+    - url: "https://www.youtube.com/watch?v=7cnN62osaUA"
+      label: "Star-gazing lecture recording"
   role: >
-    Engaged with the community and communicated astronomy research in an
-    accessible way, contributing to public science outreach through
-    interactive discussions and Q&A on radio astronomy, the DSA-2000
-    survey, and the science of the night sky.
+    Engaged with the community and communicated astronomy research in an accessible way, contributing to public science outreach through interactive discussions and Q&A on radio astronomy, the DSA-2000 survey, and the science of the night sky.
 
 - title: "Lecturer, FTSky Workshop"
   org: "International Center for Theoretical Sciences (ICTS), TIFR"
   year: "2025"
   what: "A program in the field of Fast Radio Transients — an intensive, hands-on training workshop."
-  audience: "100+ students"
+  audience: "100+ graduate students"
+  image_base: "outreach/ftsky_lecture"
+  links:
+    - url: "https://drive.google.com/drive/folders/1H0DXEcxqHaM5-ft9L1hDgrcXZ3vPVcjD"
+      label: "All school tutorial materials"
+    - url: "https://github.com/SunilSimha/ftsky_optical/tree/kritti"
+      label: "Host galaxy analysis tutorials"
+    - url: "https://www.youtube.com/watch?v=EAkRYJxIumM"
+      label: "'FRBs and the Role of Host Galaxy Studies' lecture recording"
+    - url: "https://www.youtube.com/watch?v=w1Y4Z5b-5Ew"
+      label: "'Deep Synoptic Array' lecture recording"
+    - url: "https://www.youtube.com/watch?v=KHwMxnhnm6M"
+      label: "'Probing baryonic feedback using FRBs' lecture recording"
   role: >
-    Led an intensive hands-on training session on optical studies of FRB
-    host galaxies, covering archival data mining, data reduction, galaxy
-    morphology, and SED analysis. Designed and delivered lectures and
-    tutorials on probabilistic host-galaxy association, optical
-    spectroscopy, and SED modeling, guiding participants through real
-    astronomical analysis workflows.
+    Led an intensive hands-on training session on optical studies of FRB host galaxies. Designed and delivered lectures and tutorials on archival data mining, data reduction, probabilistic host-galaxy association, optical spectroscopy, and SED modeling, guiding participants through real astronomical analysis workflows.
 
 - title: "Teaching Assistant, Graduate-Level Courses"
   org: "Caltech and IIT Bombay"
@@ -34,26 +41,45 @@
     Caltech, Winter 2024); Ay121: Radiative Processes (Prof. Sterl
     Phinney, Caltech, Fall 2023); PH556: Astrophysics (Prof. Varun
     Bhalerao, IIT Bombay, Spring 2021).
-  audience: "Graduate students"
+  audience: "30+ graduate students"
   role: >
     Conducted tutorials, graded assignments, mentored students, and
     supported smooth course delivery.
+    <ul class="role-list">
+      <li>Ay124: Structure and Evolution of Galaxies, Prof. Phil Hopkins, Caltech</li>
+      <li>Ay121: Radiative Processes, Prof. Sterl Phinney, Caltech</li>
+      <li>PH556: Astrophysics, Prof. Varun Bhalerao, IIT Bombay</li>
+    </ul>
 
-- title: "Maunakea Astroday Public Outreach Program Volunteer"
-  org: "Astronomer Community Engagement (ACE) Program, Caltech Optical Observatories"
+- title: "Volunteer, Maunakea Astroday"
+  org: "Caltech Optical Observatories"
   year: "2024"
   what: "A public outreach event introducing multi-wavelength astronomy to schoolchildren."
   audience: "Elementary school students"
+  image_base: "outreach/maunakea_astroday"
   role: >
-    Introduced elementary school students to the fundamentals of UV, IR,
-    and optical astronomy, and demonstrated how infrared observations
-    probe the dust-obscured content of star-forming galaxies.
+    As a part of the Astronomer Community Engagement (ACE) Program, introduced elementary school students to the fundamentals of UV, IR, and optical astronomy, and demonstrated how infrared observations probe the dust-obscured content of star-forming galaxies.
+
+- title: "Manager, Krittika"
+  org: Amateur Astronomy Club, IIT Bombay
+  year: "2019 – 2021"
+  what: "Institute-wide astronomy programming, projects, and night-sky observation sessions."
+  audience: "100+ members at IITB, 5,500+ online enthusiasts"
+  image_base: "outreach/astromania"
+  links:
+  - url: "https://krittikaiitb.github.io/ksp/"
+    label: "Krittika Summer Project Tutorials"
+  role: >
+    Supervised 6 summer projects, 2 week-long tutorials on numerical computing, and 3-day workshops. Ideated Team ANYmations to generate scriptable scientific animations for publicity campaigns. Organized institute-wide lectures, discussions, documentary screenings, and competitions such as Astromania and the Scientific Computation/Observation Planning Championships. Conducted night-sky observation sessions and familiarized beginners with telescope handling and observation planning.
 
 - title: "Lecturer, Scientific Computation & Mathematical Modeling Course"
   org: "IIT Bombay"
   year: "Summer 2020"
   what: "A hands-on Python and numerical-methods course."
   audience: "250+ students"
+  links:
+  - url: "https://drive.google.com/drive/folders/1lz7oN8olYuMVEpEpSGivlo6rzhFw0UtU?usp=sharing"
+    label: "Tutorials and assignment materials"
   role: >
     Provided hands-on Python training to students on solving scientific
     problems, and designed course material on numerical methods and
@@ -68,19 +94,3 @@
     Advised a group of students through a three-month-long reading
     project, fostering active discussions by sharing resources on
     observational astronomy.
-
-- title: "Amateur Astronomy Club Manager, Krittika"
-  org: "The Astronomy Club of IIT Bombay"
-  year: "2019 – 2021"
-  what: "Institute-wide astronomy programming, projects, and night-sky observation sessions."
-  audience: "~100 members at IITB, ~5,500 online enthusiasts"
-  role: >
-    Managed 10 conveners tending to the club's community. Supervised 6
-    projects, 2 week-long tutorials on numerical computing, and 3-day
-    workshops. Ideated Team ANYmations to generate scriptable scientific
-    animations for publicity campaigns. Organized institute-wide lectures,
-    discussions, documentary screenings, and competitions such as
-    Astromania and the Scientific Computation/Observation Planning
-    Championships. Conducted night-sky observation sessions and
-    familiarized beginners with telescope handling and observation
-    planning.

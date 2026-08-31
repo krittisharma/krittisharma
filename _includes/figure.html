@@ -6,7 +6,7 @@ and video extensions. Whichever one exists renders automatically (image
 as <img>, video as <video>); if none exist, it falls back to the labeled
 placeholder box. Nothing else needs to change when a file is added later.
 {%- endcomment -%}
-{%- assign exts = "png,jpg,jpeg,webp,gif,svg,mp4,webm,mov" | split: "," -%}
+{%- assign exts = "png,jpg,jpeg,webp,gif,svg,mp4,webm,mov,mkv" | split: "," -%}
 {%- assign found_ext = "" -%}
 {%- for ext in exts -%}
   {%- assign candidate = "/assets/images/" | append: include.base | append: "." | append: ext -%}
@@ -17,11 +17,11 @@ placeholder box. Nothing else needs to change when a file is added later.
   {%- endfor -%}
 {%- endfor -%}
 
-<div class="figure-block reveal">
+<div class="figure-block reveal" style="{% if include.width %}max-width:{{ include.width }};margin-left:auto;margin-right:auto;{% endif %}">
   {% if found_ext != "" %}
     {% assign fpath = "/assets/images/" | append: include.base | append: "." | append: found_ext %}
-    {% if found_ext == "mp4" or found_ext == "webm" or found_ext == "mov" %}
-      <video src="{{ fpath | relative_url }}" controls playsinline muted style="width:100%;border-radius:var(--radius-sm);display:block;background:#000;"></video>
+    {% if found_ext == "mp4" or found_ext == "webm" or found_ext == "mov" or found_ext == "mkv" %}
+      <video src="{{ fpath | relative_url }}" controls playsinline muted autoplay loop style="width:100%;border-radius:var(--radius-sm);display:block;background:#000;"></video>
     {% else %}
       <img src="{{ fpath | relative_url }}" alt="{{ include.alt | default: include.caption | strip_html }}" loading="lazy">
     {% endif %}

@@ -5,61 +5,71 @@ description: Kritti Sharma is a PhD candidate in Astrophysics at Caltech, using 
 permalink: /
 ---
 
-<section class="hero wrap">
-  <img
-    class="hero-photo reveal"
-    src="{{ '/assets/images/kritti-photo.jpg' | relative_url }}"
-    onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'hero-photo', style:'display:flex;align-items:center;justify-content:center;background:var(--bg-card);color:var(--text-faint);font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.06em;text-align:center;padding:0.5rem;', innerText:'ADD PHOTO\n/assets/images/kritti-photo.jpg'}))"
-    alt="Portrait of Kritti Sharma">
+<section class="home-hero wrap">
+  <div class="home-hero-grid">
+    <div class="home-hero-photo-col reveal">
+      <img
+        class="home-hero-photo"
+        src="{{ '/assets/images/kritti-photo.jpg' | relative_url }}"
+        onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'home-hero-photo', style:'display:flex;align-items:center;justify-content:center;background:var(--bg-card);color:var(--text-faint);font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.06em;text-align:center;padding:0.5rem;', innerText:'ADD PHOTO\n/assets/images/kritti-photo.jpg'}))"
+        alt="Portrait of Kritti Sharma">
+    </div>
 
-  <div class="eyebrow reveal" style="justify-content:center;">PhD Candidate in Astrophysics · Caltech</div>
-  <h1 class="reveal">Kritti Sharma</h1>
-  <p class="lede reveal">
-    I study how fast radio bursts and radio polarization can reveal the
-    hidden baryons of the Universe — connecting the physics of gas around
-    galaxies to the growth of cosmic structure and the parameters of our
-    cosmological model.
-  </p>
+    <div class="home-hero-text-col reveal">
+      <h1>Kritti Sharma</h1>
+      <p class="home-hero-kicker">PhD Candidate, Astrophysics @ Caltech</p>
+      <p class="lede">
+        I use enigmatic bursts of radio light, known as Fast Radio Bursts (FRBs),
+        to reveal the hidden gas in the Universe, connecting the physics of gas 
+        around galaxies to galaxy formation models, growth of cosmic structure 
+        and fundamental parameters of the standard cosmological model.
+      </p>
 
-  <div class="hero-cta reveal">
-    <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Read my research →</a>
-    <a class="btn" href="{{ '/cv/' | relative_url }}">View CV</a>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">My Research →</a>
+        <a class="btn" href="{{ '/cv/' | relative_url }}">My CV</a>
+      </div>
+    </div>
   </div>
-
-  {% include sweep-hero.html %}
 </section>
 
 <section class="section-tight wrap">
   <div class="card-grid reveal">
     <a class="nav-card" href="{{ '/research/' | relative_url }}">
-      <span class="num">01</span>
       <h3>Research</h3>
-      <p>Baryons, feedback, and the FRBs that trace them — the case for a new cosmological probe.</p>
+      <p>FRBs, a new probe of gas and baryonic feedback!</p>
     </a>
     <a class="nav-card" href="{{ '/publications/' | relative_url }}">
-      <span class="num">02</span>
       <h3>Publications</h3>
-      <p>31 refereed papers, including first-author work in Nature and Nature Astronomy.</p>
+      <p>11 first-author, peer-reviewed papers, including publications in <em>Nature</em> and <em>Nature Astronomy</em>.</p>
     </a>
     <a class="nav-card" href="{{ '/press/' | relative_url }}">
-      <span class="num">03</span>
       <h3>Press</h3>
-      <p>Coverage of the missing-baryon problem, magnetar origins, and near-Earth asteroids.</p>
+      <p>Coverage of FRB progenitors, missing baryons, and near-Earth asteroid discovery.</p>
     </a>
     <a class="nav-card" href="{{ '/outreach/' | relative_url }}">
-      <span class="num">04</span>
       <h3>Outreach</h3>
       <p>Teaching, mentoring, and public astronomy from IIT Bombay to Caltech.</p>
     </a>
     <a class="nav-card" href="{{ '/cv/' | relative_url }}">
-      <span class="num">05</span>
       <h3>CV</h3>
-      <p>Full academic record — education, observing, talks, and service.</p>
-    </a>
-    <a class="nav-card" href="{{ '/contact/' | relative_url }}">
-      <span class="num">06</span>
-      <h3>Contact</h3>
-      <p>Email, institution, and professional profiles.</p>
+      <p>Full academic record.</p>
     </a>
   </div>
+</section>
+
+<section class="section wrap">
+  <div class="eyebrow">Contact</div>
+  <ul class="contact-list" style="margin-top:2rem;max-width:640px;">
+    <li>
+      <span class="contact-label">Email</span>
+      <span class="contact-value"><a href="mailto:kritti@caltech.edu">kritti@caltech.edu</a></span>
+    </li>
+    <li>
+      <span class="contact-label">Institution</span>
+      <span class="contact-value">Cahill Center for Astronomy and Astrophysics, Caltech<br>
+        <span class="small text-dim">1216 E. California Blvd., MC 249-17, Pasadena, CA 91125</span>
+      </span>
+    </li>
+  </ul>
 </section>

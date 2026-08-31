@@ -7,23 +7,33 @@ permalink: /outreach/
 
 <section class="section wrap">
   <div class="eyebrow">Outreach</div>
-  <h1>Teaching &amp; outreach</h1>
-  <p class="lede narrative-block">
-    From managing a 5,500-strong amateur astronomy community at IIT
-    Bombay to leading hands-on FRB workshops for early-career
-    researchers, I care about making this science legible outside the
-    room it was done in.
-  </p>
+  <h1>Teaching &amp; Astronomy Outreach</h1>
+  <blockquote class="thesis reveal">
+    From managing the amateur astronomy community at IIT Bombay to leading hands-on workshops for early-career researchers, making the science legible outside the room it was done in!
+  </blockquote>
 
   <div class="outreach-grid" style="margin-top:2.5rem;">
     {% for item in site.data.outreach %}
       <div class="outreach-card reveal">
-        <div class="eyebrow">{{ item.year }}</div>
+        <div class="eyebrow">{{ item.org }}</div>
         <h3>{{ item.title }}</h3>
-        <p class="text-dim small mt-0">{{ item.org }}</p>
-        <p>{{ item.what }}</p>
-        <p class="text-dim">{{ item.role }}</p>
+        <p class="outreach-meta">{{ item.role }}</p>
+        {% if item.image_base %}
+        {% include figure.html
+             base=item.image_base
+             tag="Add outreach photo"
+             placeholder_desc="Photo from this outreach activity." %}
+        {% endif %}
         <div class="outreach-meta">AUDIENCE — {{ item.audience }}</div>
+        {% if item.links %}
+          <div class="project-links" style="margin-top:0.8rem;">
+            {% for l in item.links %}
+              {% if l.url and l.url != "" %}
+                <a class="link-pill" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label | default: "Link" }} ↗</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
         {% if item.media_note %}
           <div class="outreach-media-note">{{ item.media_note }}</div>
         {% endif %}
@@ -31,14 +41,16 @@ permalink: /outreach/
     {% endfor %}
   </div>
 
-  <div class="callout" style="margin-top:2.5rem;">
-    <span class="tag">Expanding this page</span>
-    <p style="margin:0.5em 0 0;">
-      This page is set up to grow — send over photos, links, or video from
-      your previous personal website and each can be dropped into its
-      matching entry in <code>_data/outreach.yml</code> as a
-      <code>media_note</code>, image, or link field, without touching the
-      page's layout.
-    </p>
-  </div>
+<div class="figure-trio">
+  {% include figure.html base="outreach/black_hole" %}
+  {% include figure.html base="outreach/orbit_around_star" %}
+  {% include figure.html base="outreach/globular_cluster" %}
+</div>
+
+<div class="figure-trio">
+  {% include figure.html base="outreach/Needle-new" %}
+  {% include figure.html base="outreach/Ring-new" %}
+  {% include figure.html base="outreach/Sombrero-new" %}
+</div>
+
 </section>

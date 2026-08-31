@@ -1,4 +1,6 @@
 # Transcribed directly from Kritti's CV (as of Aug 2026).
+# Journal DOI links extracted directly from the CV PDF's own embedded
+# hyperlinks — the CV is the authoritative source for these.
 # role: first | coauthor | supporting
 # To add a new paper, copy an entry and fill in the fields — no other
 # page needs to change, publications.html renders this list automatically.
@@ -9,6 +11,7 @@
   authors: "K. Sharma, V. Ravi, D. Anbajagane, et al."
   venue: "ApJL, 1006, L3"
   arxiv: "2605.01994"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/ae81ac"
 
 - role: first
   year: 2026
@@ -30,6 +33,7 @@
   authors: "K. Sharma, V. Ravi, E. Krause, et al."
   venue: "ApJ, 999, 202"
   arxiv: "2511.16850"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/ae4696"
 
 - role: first
   year: 2026
@@ -37,6 +41,7 @@
   authors: "K. Sharma, E. Krause, V. Ravi, et al."
   venue: "ApJ, 998, 109"
   arxiv: "2509.05866"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/ae2ff9"
 
 - role: first
   year: 2025
@@ -44,6 +49,7 @@
   authors: "K. Sharma, E. Krause, V. Ravi, et al."
   venue: "ApJ, 989, 81"
   arxiv: "2504.18745"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/adeca4"
 
 - role: first
   year: 2025
@@ -51,6 +57,7 @@
   authors: "K. Sharma, V. Ravi, D. Dong, et al."
   venue: "PASP, 137, 084102"
   arxiv: "2506.04522"
+  journal_url: "https://iopscience.iop.org/article/10.1088/1538-3873/adf359"
 
 - role: first
   year: 2024
@@ -66,6 +73,7 @@
   authors: "K. Sharma, K. Chandra, and A. Pai"
   venue: "Phys. Rev. D 108, 124061"
   arxiv: "2208.02545"
+  journal_url: "https://doi.org/10.1103/PhysRevD.108.124061"
 
 - role: first
   year: 2023
@@ -73,6 +81,7 @@
   authors: "K. Sharma, H. Kumar, H. Choudhary, et al."
   venue: "MNRAS, 524, 2, 2651–2660"
   arxiv: "2306.16519"
+  journal_url: "https://academic.oup.com/mnras/article/524/2/2651/7218582?login=false"
 
 - role: first
   year: 2023
@@ -80,6 +89,7 @@
   authors: "K. Sharma, J. Somalwar, C. Law, et al."
   venue: "ApJ, 950, 175"
   arxiv: "2302.14782"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/accf1d"
 
 # ---- second / third author ----
 
@@ -96,6 +106,7 @@
   authors: "L. Connor, V. Ravi, K. Sharma, et al."
   venue: "Nature Astronomy, 9, 1226–1239"
   arxiv: "2409.16952"
+  journal_url: "https://www.nature.com/articles/s41550-025-02566-y"
 
 - role: coauthor
   year: 2024
@@ -103,6 +114,7 @@
   authors: "C. Law and K. Sharma, et al."
   venue: "ApJ, 967, 29"
   arxiv: "2307.03344"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/ad3736"
 
 # ---- supporting contributions ----
 
@@ -112,6 +124,7 @@
   authors: "M. Sherman, N. Kosogorov, et al. (incl. K. Sharma)"
   venue: "PASP, 138, 024501"
   arxiv: "2510.18136"
+  journal_url: "https://iopscience.iop.org/article/10.1088/1538-3873/ae390e"
 
 - role: supporting
   year: 2025
@@ -119,6 +132,7 @@
   authors: "J. Somalwar, V. Ravi, et al. (incl. K. Sharma)"
   venue: "ApJ, 995, 228"
   arxiv: "2505.11597"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/ae1501"
 
 - role: supporting
   year: 2025
@@ -126,6 +140,7 @@
   authors: "J. Carney, I. Andreoni, et al. (incl. K. Sharma)"
   venue: "ApJL, 994, L46"
   arxiv: "2509.22784"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/ae1d67"
 
 - role: supporting
   year: 2025
@@ -133,6 +148,7 @@
   authors: "M. Hussaini, L. Connor, et al. (incl. K. Sharma)"
   venue: "ApJL, 993, L27"
   arxiv: "2506.04186"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/ae0a49"
 
 - role: supporting
   year: 2025
@@ -140,6 +156,7 @@
   authors: "R. Anna-Thomas, C. Law, et al. (incl. K. Sharma)"
   venue: "ApJ, 993, 221"
   arxiv: "2503.02947"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/ae1014"
 
 - role: supporting
   year: 2025
@@ -147,6 +164,7 @@
   authors: "V. Ravi, M. Catha, et al. (incl. K. Sharma)"
   venue: "AJ, 169, 330"
   arxiv: "2301.01000"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-3881/adc725"
 
 - role: supporting
   year: 2025
@@ -154,6 +172,7 @@
   authors: "B. Bolin, F. Masci, et al. (incl. K. Sharma)"
   venue: "Icarus, 425, 116333"
   arxiv: "2409.15263"
+  journal_url: "https://www.sciencedirect.com/science/article/abs/pii/S0019103524003932?via%3Dihub"
 
 - role: supporting
   year: 2024
@@ -161,6 +180,7 @@
   authors: "M. Sherman, V. Ravi, et al. (incl. K. Sharma)"
   venue: "MNRAS, 534, 2, 1414–1419"
   arxiv: "2404.05135"
+  journal_url: "https://academic.oup.com/mnras/article/531/2/2379/7676190?login=false"
 
 - role: supporting
   year: 2024
@@ -175,6 +195,7 @@
   authors: "M. Sherman, L. Connor, et al. (incl. K. Sharma)"
   venue: "ApJ, 964, 131"
   arxiv: "2308.06813"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/ad275e"
 
 - role: supporting
   year: 2024
@@ -182,6 +203,7 @@
   authors: "G. Srinivasaragavan, V. Swain, et al. (incl. K. Sharma)"
   venue: "ApJL, 960, L18"
   arxiv: "2310.14397"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/ad16e7"
 
 - role: supporting
   year: 2023
@@ -189,6 +211,7 @@
   authors: "M. Sherman, L. Connor, et al. (incl. K. Sharma)"
   venue: "ApJL, 957, L8"
   arxiv: "2308.06816"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/ad0380"
 
 - role: supporting
   year: 2023
@@ -196,6 +219,7 @@
   authors: "L. Connor, V. Ravi, et al. (incl. K. Sharma)"
   venue: "ApJL, 949, L26"
   arxiv: "2302.14788"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/acd3ea"
 
 - role: supporting
   year: 2023
@@ -203,6 +227,7 @@
   authors: "V. Ravi, M. Catha, et al. (incl. K. Sharma)"
   venue: "ApJL, 949, L3"
   arxiv: "2211.09049"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/acc4b6"
 
 - role: supporting
   year: 2022
@@ -210,6 +235,7 @@
   authors: "H. Kumar, V. Bhalerao, et al. (incl. K. Sharma)"
   venue: "AJ, 164, 90"
   arxiv: "2206.13535"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-3881/ac7bea"
 
 - role: supporting
   year: 2021
@@ -217,6 +243,7 @@
   authors: "I. Andreoni, M. Coughlin, et al. (incl. K. Sharma)"
   venue: "ApJ, 918, 63"
   arxiv: "2104.06352"
+  journal_url: "https://iopscience.iop.org/article/10.3847/1538-4357/ac0bc7"
 
 - role: supporting
   year: 2021
@@ -224,3 +251,4 @@
   authors: "J. Purdum, Z. Lin, et al. (incl. K. Sharma)"
   venue: "ApJL, 911, L35"
   arxiv: "2102.13017"
+  journal_url: "https://iopscience.iop.org/article/10.3847/2041-8213/abf2ca"

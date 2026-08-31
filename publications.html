@@ -8,11 +8,10 @@ permalink: /publications/
 <section class="section wrap">
   <div class="eyebrow">Publications</div>
   <h1>Publication record</h1>
-  <p class="lede narrative-block">
-    31 refereed publications (11 first-authored), reverse chronological.
-    Filter by role, or read the <a href="{{ '/research/' | relative_url }}" style="color:var(--cyan);">Research</a>
-    page for the story behind the six papers at the center of my PhD thesis.
-  </p>
+  <blockquote class="thesis reveal">
+    31 refereed publications (11 first-authored). Checkout the <a href="{{ '/research/' | relative_url }}" style="color:var(--cyan);">Research</a>
+    page for story behind seven papers at the center of my PhD thesis!
+  </blockquote>
 
   <div class="filter-row" data-pub-filters>
     <button class="filter-btn active" data-filter="all">All (31)</button>
@@ -29,24 +28,22 @@ permalink: /publications/
       <div class="pub reveal" data-pub-category="{{ pub.role }}">
         <div class="pub-title">
           {{ pub.title }}
-          {% if pub.role == "first" %}<span class="role-badge">First author</span>{% endif %}
+          {% if pub.role == "first" %}<span class="role-badge role-first">First author</span>
+          {% elsif pub.role == "coauthor" %}<span class="role-badge role-coauthor">Second/third author</span>
+          {% elsif pub.role == "supporting" %}<span class="role-badge role-supporting">Supporting contribution</span>
+          {% endif %}
         </div>
-        <div class="pub-meta">{{ pub.authors }} — <span class="pub-venue">{{ pub.venue }}</span></div>
+        <div class="pub-meta">{{ pub.authors }} — <span class="pub-venue">{% if pub.journal_url %}<a href="{{ pub.journal_url }}" target="_blank" rel="noopener" class="pub-venue-btn">{{ pub.venue }} ↗</a>{% else %}{{ pub.venue }}{% endif %}</span></div>
         <div class="pub-links">
           {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank" rel="noopener">arXiv:{{ pub.arxiv }} ↗</a>{% endif %}
-          {% if pub.journal_url %}<a href="{{ pub.journal_url }}" target="_blank" rel="noopener">Journal ↗</a>{% endif %}
         </div>
       </div>
     {% endfor %}
   {% endfor %}
 
   <div class="callout warn" style="margin-top:3rem;">
-    <span class="tag">Note</span>
     <p style="margin:0.5em 0 0;">
-      This list is transcribed from Kritti's CV. Non-refereed work (1 AAS
-      Research Note, 186 Minor Planet Electronic Circulars, 16 ATels, and 7
-      GCNs) is omitted here for readability — see the
-      <a href="{{ '/cv/' | relative_url }}" style="color:var(--cyan);">full CV</a> for the complete record.
+      Non-refereed publications (1 AAS Research Note, 186 MPECs, 16 ATels, and 7 GCNs) are omitted here for readability - see <a href="{{ '/cv/' | relative_url }}" style="color:var(--cyan);">CV</a> for the complete record.
     </p>
   </div>
 </section>

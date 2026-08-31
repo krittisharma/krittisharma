@@ -9,7 +9,7 @@
     </button>
 
     <ul class="nav-links" id="navLinks">
-      {% assign items = "/:Home,/research/:Research,/publications/:Publications,/press/:Press,/outreach/:Outreach,/cv/:CV,/contact/:Contact" | split: "," %}
+      {% assign items = "/:Home,/research/:Research,/publications/:Publications,/press/:Press,/outreach/:Outreach,/cv/:CV" | split: "," %}
       {% for item in items %}
         {% assign parts = item | split: ":" %}
         {% assign href = parts[0] %}

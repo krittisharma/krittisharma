@@ -1,84 +1,66 @@
-# Transcribed from Kritti's CV "Press Releases and Science Journalism" section.
-# Items marked url: PLACEHOLDER need a link added — none was confidently
-# located during site build, so please supply it rather than have us guess.
-
-- outlet: "Caltech"
-  interviewed: true
-  date: "November 2024"
-  title: "Mighty Radio Bursts Linked to Massive Galaxies"
-  url: "https://www.caltech.edu/about/news/mighty-radio-bursts-linked-to-massive-galaxies"
-  summary: >
-    Covers Kritti's Nature paper showing FRBs preferentially occur in
-    massive, star-forming galaxies — evidence that the magnetars thought to
-    power FRBs may form through the merger of two stars rather than a
-    single massive star's collapse.
-
-- outlet: "Nature — News & Views"
-  interviewed: true
-  date: "November 2024"
-  title: "Mysterious radio bursts mostly come from massive galaxies"
-  url: "https://www.nature.com/articles/d41586-024-03465-4"
-  summary: >
-    A News & Views commentary on the same result, explaining why the
-    galactic environments of FRBs are a clue to the origin of magnetars —
-    the extreme, highly magnetized neutron stars thought to produce them.
-
 - outlet: "AAS Nova"
-  date: "PLACEHOLDER — add date"
+  date: "August 2026"
   title: "Diving into the Darkest Corners of the Universe with Fast Radio Bursts"
-  url: ""
+  url: "https://aasnova.org/2026/08/05/diving-into-the-darkest-corners-of-the-universe-with-fast-radio-bursts/"
   summary: >
-    An AAS research highlight on using FRB dispersion measures to trace
-    the Universe's faintest, most diffuse gas.
+    An AAS research highlight of our work on using FRB dispersion measures to trace the Universe's faintest, most diffuse gas in cosmic voids.
 
 - outlet: "Caltech"
   date: "June 2025"
   title: "Missing Matter in Universe Found"
   url: "https://www.caltech.edu/about/news/missing-matter-in-universe-found"
   summary: >
-    Reports on a companion FRB study (Connor et al., co-authored by Kritti)
-    that located roughly three-quarters of the Universe's long-sought
-    "missing" ordinary matter in the thin gas between galaxies.
+    Reports on our Nature Astronomy study using FRBs to locate roughly three-quarters of the Universe’s long-sought “missing” ordinary matter in the diffuse gas between galaxies.
 
 - outlet: "Harvard University / Center for Astrophysics"
   date: "June 2025"
   title: "A New GPS for the Intergalactic Medium: Astronomers Have Found the Home Address for Universe's 'Missing' Matter"
   url: "https://www.cfa.harvard.edu/news/new-gps-intergalactic-medium-astronomers-have-found-home-address-universes-missing-matter"
   summary: >
-    Harvard's release on the same result, framed around the decades-old
-    "missing baryon problem" and the record-breaking distant FRB used to
-    help solve it.
+    Harvard's release on the same result, framed around the decades-old "missing baryon problem".
+
+- outlet: "Caltech"
+  interviewed: false
+  date: "November 2024"
+  title: "Mighty Radio Bursts Linked to Massive Galaxies"
+  url: "https://www.caltech.edu/about/news/mighty-radio-bursts-linked-to-massive-galaxies"
+  summary: >
+    Covers our Nature paper showing FRBs preferentially occur in massive, star-forming galaxies - evidence that the magnetars thought to power FRBs may form through the merger of two stars rather than a single massive star's collapse.
+
+- outlet: "Nature — News & Views"
+  interviewed: false
+  date: "November 2024"
+  title: "Mysterious radio bursts mostly come from massive galaxies"
+  url: "https://www.nature.com/articles/d41586-024-03465-4"
+  summary: >
+    A News & Views commentary on the same result, explaining why the galactic environments of FRBs are a clue to the origin of magnetars - the extreme, highly magnetized neutron stars thought to produce them.
 
 - outlet: "IIT Bombay"
-  interviewed: true
-  date: "PLACEHOLDER — add date"
+  interviewed: false
+  date: "August 2020"
   title: "IITB students discover closest known asteroid to fly by Earth"
-  url: ""
+  url: "https://www.star-iitb.in/home/closest-asteroid"
   summary: >
-    Coverage of the GROWTH-India Telescope team's role, as undergraduates,
-    in following up the closest-known non-impacting asteroid flyby of Earth.
+    Coverage of our role, as a part of the GROWTH-India Telescope team, in discovering and following up the closest-known non-impacting asteroid flyby of Earth.
 
 - outlet: "Caltech"
   date: "August 2020"
   title: "ZTF Finds Closest Known Asteroid to Fly By Earth"
   url: "https://www.caltech.edu/about/news/ztf-finds-closest-known-asteroid-fly-earth"
   summary: >
-    On the Zwicky Transient Facility's detection of asteroid 2020 QG, an
-    SUV-sized object that passed roughly 1,830 miles above Earth — the
-    closest known non-impacting asteroid flyby on record at the time.
+    On the Zwicky Transient Facility's discovery of asteroid 2020 QG, an SUV-sized object that passed roughly 1,830 miles above Earth - the closest known non-impacting asteroid flyby on record at the time.
 
 - outlet: "NASA / JPL"
   date: "August 2020"
   title: "Tiny Asteroid Buzzes by Earth - the Closest Flyby on Record"
   url: "https://www.nasa.gov/solar-system/tiny-asteroid-buzzes-by-earth-the-closest-flyby-on-record/"
   summary: >
-    NASA's write-up of the same 2020 QG flyby, including how Earth's
-    gravity visibly bent the asteroid's trajectory during its close pass.
+    NASA's write-up of the same 2020 QG flyby, including how Earth's gravity visibly bent the asteroid's trajectory during its close pass.
 
 - outlet: "European Space Agency"
-  date: "PLACEHOLDER — add date"
+  date: "August 2020"
   title: "2020 QG, the closest close approach"
-  url: ""
+  url: "https://neo.ssa.esa.int/-/2020-qg-the-closest-close-approach"
   summary: >
     ESA's coverage of the 2020 QG flyby.
 
@@ -87,6 +69,4 @@
   title: "Our Planet Protected Us. Earth 'Bends' An Asteroid Just 1,830 Miles Out, The Closest Flyby On Record"
   url: "https://www.forbes.com/sites/jamiecartereurope/2020/08/19/our-planet-protected-us-earth-bends-an-asteroid-just-1830-miles-out-the-closest-flyby-on-record/"
   summary: >
-    A general-audience take on the 2020 QG flyby and what it shows about
-    how many small, hard-to-detect asteroids pass close to Earth
-    undetected until the last moment.
+    A general-audience take on the 2020 QG flyby and what it shows about how many small, hard-to-detect asteroids pass close to Earth undetected until the very last moment!
